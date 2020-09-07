@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+p,
+h5 {
+    color: #fff;
+}
+
+i {
+    color: var(--yellow-color);
+    font-size: 40px;
+}
+
+body {
+    background-color: #000000;
+    font-weight: 600;
+}
+
+:root {
+    --red-color: #c70000;
+    --green-color: #28a745;
+    --blue-color: #052962;
+    --yellow-color: #ffe500;
+}
+
+h2 {
+    color: var(--yellow-color);
+    background-color: var(--blue-color);
+}
+
+.btn-success {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*** Navbar ***/
+
+.navbar {
+    background-color: var(--blue-color) !important;
+    font-weight: 650;
+}
+
+.navbar .navbar-brand:hover {
+    color: var(--yellow-color);
+}
+
+.collapse ul li a {
+    margin: 0 30px 0 0;
+}
+
+.collapse ul li a:hover {
+    color: var(--yellow-color) !important;
+}
+
+
+/*** Home ***/
+
+.home {
+    margin-top: 1%;
+    min-height: 90vh;
+}
+
+.icon i {
+    margin-top: 5px;
+}
+
+.home_img img {
+    max-width: 320px;
+    margin-top: 80px;
+    border: 3px solid #28a745;
+    border-radius: 40%;
+}
+
+/*** About ***/
+
+.about_data {
+    margin-top: 2%;
+}
+
+.about_icon {
+    margin: auto 0;
+}
+
+.about_img img {
+    border-radius: 50%;
+    max-width: 320px;
+}
+
+.card {
+    margin: 1% auto;
+    border-width: thick;
+    background: var(--green-color);
+}
+
+.card-title {
+    background-color: #052962;
+    color: var(--yellow-color);
+    border-radius: 1%;
+    border-block-end-width: 10px;
+}
+
+/*** Skills ***/
+
+.skills {
+    margin-top: 1%;
+    margin: 50px auto 0;
+}
+
+.skills_img img {
+    max-width: 380px;
+    max-height: 480px;
+}
+
+/*** Contact ***/
+
+footer {
+    background: var(--blue-color);
+    color: #fff;
+    min-height: 50vh;
+}
+
+footer i {
+    font-size: 14px;
+    color: #fff;
+}
